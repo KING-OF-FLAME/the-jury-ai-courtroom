@@ -29,7 +29,17 @@ This project showcases:
 
 ## 🚀 Getting Started 📍
 
-<table align="center">
+<table align="center" width="100%">
+  <!-- TOP ROW: GIF (FULL WIDTH) -->
+  <tr>
+    <td align="center" colspan="2">
+      <img src="vid.gif" alt="System Demo" width="100%">
+      <br>
+      <i>Live System Demo</i>
+    </td>
+  </tr>
+
+  <!-- SECOND ROW: TWO COLUMNS -->
   <tr>
     <td align="center" width="50%">
       <img src="flow.jpg" alt="Workflow Engine" width="100%">
@@ -147,6 +157,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
