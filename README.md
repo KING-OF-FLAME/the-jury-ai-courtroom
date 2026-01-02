@@ -30,7 +30,7 @@ This project showcases:
 ## 🚀 Getting Started 📍
 
 <p align="center">
-  <img src="https://i.ibb.co/Kc88rJ9r/Gemini-Generated-Image-cprg1acprg1acprg.jpg" alt="The Jury Dashboard Screenshot" width="100%">
+  <img src="dashboard.png" alt="The Jury Dashboard Screenshot" width="100%">
   <br>
   <i>God Mode UI — Proposer, Critic & Judge in action</i>
 </p>
@@ -137,6 +137,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
