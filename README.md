@@ -3,7 +3,7 @@
 A single, production-grade Adversarial AI Consensus Engine. This tool empowers users to force Large Language Models (LLMs) to debate, cross-examine, and judge each other to produce hallucination-free, high-confidence answers. Built with **FastAPI, Streamlit, and MySQL**, it offers a "Glass Box" experience to watch AI reasoning in real-time.
 
 <p align="center">
-  <img src="https://i.ibb.co/Vp8p6X6/jury-cover.png" alt="The Jury Dashboard Screenshot" width="100%">
+  <img src="https://i.ibb.co/rR36ZB8c/Gemini-Generated-Image-70yuj170yuj170yu.jpg" alt="The Jury Logo" width="120">
   <br>
   <i>(A glimpse of the God Mode UI: Proposer, Critic, and Judge in action)</i>
 </p>
@@ -130,3 +130,4 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
