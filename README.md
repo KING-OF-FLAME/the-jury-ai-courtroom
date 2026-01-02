@@ -140,14 +140,20 @@ with st.expander("🎭 Personas", expanded=True):
 class CaseRequest(BaseModel):
     query: str
 
-
     proposer_model: str = "openai/gpt-4o"
     critic_model: str = "anthropic/claude-3.5-sonnet"
     judge_model: str = "google/gemini-pro-1.5"
-📁 File C: database/jury_db.sql (Database Defaults)
+    
+📁 File C: database/jury_db.sql 
+
+(Database Defaults)
+
+```
 proposer_model VARCHAR(255) DEFAULT 'openai/gpt-4o',
 critic_model VARCHAR(255) DEFAULT 'anthropic/claude-3.5-sonnet',
 judge_model VARCHAR(255) DEFAULT 'google/gemini-pro-1.5',
+
+```
 🔍 Where to Find Model IDs
 
 Browse available models: 👉 https://openrouter.ai/models
@@ -207,6 +213,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
