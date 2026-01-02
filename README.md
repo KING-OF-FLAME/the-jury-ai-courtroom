@@ -8,7 +8,7 @@ A single, production-grade Adversarial AI Consensus Engine. This tool empowers u
   <i>(A glimpse of the God Mode UI: Proposer, Critic, and Judge in action)</i>
 </p>
 
-[![Repo Size](https://img.shields.io/github/repo-size/KING-OF-FLAME/the-jury-ai-courtroom?style=flat-square&color=orange)](https://github.com/KING-OF-FLAME/the-jury-ai-courtroom)
+[![Repo Size](https://img.shields.io/github/repo-size/KING-OF-FLAME/the-jury-ai-courtroom?style=flat-square&color=orange&v=2)](https://github.com/KING-OF-FLAME/the-jury-ai-courtroom)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/KING-OF-FLAME/the-jury-ai-courtroom)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/KING-OF-FLAME/the-jury-ai-courtroom/graphs/commit-activity)
 
@@ -147,6 +147,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
