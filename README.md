@@ -111,6 +111,60 @@ the-jury-ai/
     *   **Terminal 2 (Frontend)**: `streamlit run frontend/app.py`
     *   Access the dashboard at `http://localhost:8501`.
 
+🔧 How to Change Default Models (Permanent Fix)
+
+To permanently change model defaults, 3 files must be updated.
+
+📁 File A: frontend/app.py (UI Defaults)
+
+Controls the model shown in the sidebar.
+
+with st.expander("🎭 Personas", expanded=True):
+    p_per = st.text_input("Proposer Persona", "Senior Solutions Architect")
+    
+    # CHANGE THIS
+    p_mod = st.text_input("Proposer Model", "openai/gpt-4o")
+
+
+    c_per = st.text_input("Critic Persona", "NSA Security Auditor")
+    
+    # CHANGE THIS
+    c_mod = st.text_input("Critic Model", "anthropic/claude-3.5-sonnet")
+
+
+    j_per = st.text_input("Judge Persona", "Chief Justice")
+    
+    # CHANGE THIS
+    j_mod = st.text_input("Judge Model", "google/gemini-pro-1.5")
+📁 File B: backend/models.py (Backend Fallback)
+class CaseRequest(BaseModel):
+    query: str
+
+
+    proposer_model: str = "openai/gpt-4o"
+    critic_model: str = "anthropic/claude-3.5-sonnet"
+    judge_model: str = "google/gemini-pro-1.5"
+📁 File C: database/jury_db.sql (Database Defaults)
+proposer_model VARCHAR(255) DEFAULT 'openai/gpt-4o',
+critic_model VARCHAR(255) DEFAULT 'anthropic/claude-3.5-sonnet',
+judge_model VARCHAR(255) DEFAULT 'google/gemini-pro-1.5',
+🔍 Where to Find Model IDs
+
+Browse available models: 👉 https://openrouter.ai/models
+
+Example IDs:
+
+openai/gpt-4o
+anthropic/claude-3.5-sonnet
+google/gemini-pro-1.5
+deepseek/deepseek-r1
+meta-llama/llama-3.1-405b-instruct
+🧠 Recommended Model Combos
+Mode	Proposer	Critic	Judge
+Free	nvidia/nemotron-3-nano-30b-a3b:free	allenai/olmo-3.1-32b-think:free	meta-llama/llama-3.1-405b-instruct:free
+High IQ	openai/gpt-4o	anthropic/claude-3.5-sonnet	openai/o1-preview
+Cheap & Fast	mistralai/mistral-small	meta-llama/llama-3-70b-instruct	google/gemini-flash-1.5
+
 -------------------------------------------------
 
 ## ✨ Features 📍
@@ -157,6 +211,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
