@@ -29,17 +29,21 @@ This project showcases:
 
 ## 🚀 Getting Started 📍
 
-<p align="center">
-  <img src="flow.jpg" alt="The Jury Dashboard Screenshot" width="100%">
-  <br>
-  <i>Workflow Engine</i>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="flow.jpg" alt="Workflow Engine" width="100%">
+      <br>
+      <i>Workflow Engine</i>
+    </td>
+    <td align="center" width="50%">
+      <img src="dashboard.png" alt="Dashboard" width="100%">
+      <br>
+      <i>Dashboard</i>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="dashboard.png" alt="The Jury Dashboard Screenshot" width="100%">
-  <br>
-  <i>Dashboard</i>
-</p>
 
 
 To get "The Jury" up and running on your local machine, you'll need a web server environment (like XAMPP) and Python.
@@ -143,6 +147,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
