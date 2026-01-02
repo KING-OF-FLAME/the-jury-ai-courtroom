@@ -111,7 +111,7 @@ the-jury-ai/
     *   **Terminal 2 (Frontend)**: `streamlit run frontend/app.py`
     *   Access the dashboard at `http://localhost:8501`.
 
-🔧 How to Change Default Models (Permanent Fix)
+## 🔧 How to Change Default Models (Permanent Fix)
 
 To permanently change model defaults, 3 files must be updated.
 
@@ -211,6 +211,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
