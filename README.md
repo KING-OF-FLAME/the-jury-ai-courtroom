@@ -30,9 +30,15 @@ This project showcases:
 ## 🚀 Getting Started 📍
 
 <p align="center">
+  <img src="flow.jpg" alt="The Jury Dashboard Screenshot" width="100%">
+  <br>
+  <i>Workflow Engine</i>
+</p>
+
+<p align="center">
   <img src="dashboard.png" alt="The Jury Dashboard Screenshot" width="100%">
   <br>
-  <i>God Mode UI — Proposer, Critic & Judge in action</i>
+  <i>Dashboard</i>
 </p>
 
 
@@ -137,6 +143,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
