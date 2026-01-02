@@ -152,18 +152,14 @@ judge_model VARCHAR(255) DEFAULT 'google/gemini-pro-1.5',
 
 Browse available models: 👉 https://openrouter.ai/models
 
-Example IDs:
+### 🧠 Recommended Model Combos
 
-openai/gpt-4o
-anthropic/claude-3.5-sonnet
-google/gemini-pro-1.5
-deepseek/deepseek-r1
-meta-llama/llama-3.1-405b-instruct
-🧠 Recommended Model Combos
-Mode	Proposer	Critic	Judge
-Free	nvidia/nemotron-3-nano-30b-a3b:free	allenai/olmo-3.1-32b-think:free	meta-llama/llama-3.1-405b-instruct:free
-High IQ	openai/gpt-4o	anthropic/claude-3.5-sonnet	openai/o1-preview
-Cheap & Fast	mistralai/mistral-small	meta-llama/llama-3-70b-instruct	google/gemini-flash-1.5
+| Mode        | Proposer                                   | Critic                                      | Judge                                      |
+|-------------|---------------------------------------------|----------------------------------------------|--------------------------------------------|
+| Free        | nvidia/nemotron-3-nano-30b-a3b:free         | allenai/olmo-3.1-32b-think:free               | meta-llama/llama-3.1-405b-instruct:free     |
+| High IQ     | openai/gpt-4o                               | anthropic/claude-3.5-sonnet                   | openai/o1-preview                           |
+| Cheap & Fast| mistralai/mistral-small                     | meta-llama/llama-3-70b-instruct               | google/gemini-flash-1.5                     |
+
 
 -------------------------------------------------
 
@@ -211,6 +207,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
