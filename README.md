@@ -29,6 +29,13 @@ This project showcases:
 
 ## 🚀 Getting Started 📍
 
+<p align="center">
+  <img src="https://i.ibb.co/G4TPx8zc/Screenshot-2026-01-02-225007.png" alt="The Jury Dashboard Screenshot" width="100%">
+  <br>
+  <i>God Mode UI — Proposer, Critic & Judge in action</i>
+</p>
+
+
 To get "The Jury" up and running on your local machine, you'll need a web server environment (like XAMPP) and Python.
 
 ## Project Structure
@@ -130,5 +137,6 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
