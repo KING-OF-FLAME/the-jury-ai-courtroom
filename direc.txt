@@ -1,0 +1,19 @@
+the-jury-ai/
+│
+├── backend/                # FastAPI Application
+│   ├── __init__.py
+│   ├── main.py             # API Routes & Workflow Orchestration
+│   ├── agents.py           # LLM Interaction Logic (Proposer, Critic, Judge)
+│   ├── database.py         # MySQL Connection & CRUD operations
+│   └── models.py           # Pydantic & SQLAlchemy Models
+│
+├── frontend/               # Streamlit UI
+│   ├── app.py              # Main UI Logic
+│   └── styles.css          # Custom styling for "Glass Box" look
+│
+├── database/               # Database Initialization
+│   └── jury_db.sql          # SQL script for table creation
+│
+├── .env                    # Secrets (Not committed to git, we will create a template)
+├── requirements.txt        # Dependencies
+└── run_setup.py            # The script to build this structure

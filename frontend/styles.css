@@ -1,0 +1,15 @@
+.stApp { background-color: #0e1117; color: #fafafa; }
+.agent-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px; padding: 20px; margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-out forwards;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.agent-header { 
+    font-weight: 700; margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); 
+    padding-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9em;
+}
+.role-proposer { border-left: 5px solid #4CAF50; }
+.role-critic { border-left: 5px solid #F44336; }
+.role-judge { border-left: 5px solid #2196F3; }
