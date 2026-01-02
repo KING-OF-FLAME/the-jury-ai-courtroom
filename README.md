@@ -106,7 +106,7 @@ the-jury-ai/
 ## ✨ Features 📍
 
 *   **Chained Execution Engine**: Watch agents react to each other instantly (Proposer -> Critic -> Judge).
-*   **"Khatarnak" Test Suite**: One-click execution of complex scenarios (e.g., Stuxnet Design, DeFi Arbitrage, Legal Loopholes).
+*   **"Best" Test Suite**: One-click execution of complex scenarios (e.g., Stuxnet Design, DeFi Arbitrage, Legal Loopholes).
 *   **Confidence Scoring**: The Judge assigns a 0-100% confidence score to every verdict.
 *   **Thinking Process Visualization**: Specialized parsing for "Chain of Thought" models like DeepSeek and Olmo.
 *   **Responsive UI**: A modern "Glassmorphism" interface that works seamlessly on desktop.
@@ -147,6 +147,7 @@ Instagram: [yash.developer](https://instagram.com/yash.developer)
 
 *   Special thanks to **OpenRouter** for democratizing AI access.
 *   To the open-source community for continuous inspiration and learning.
+
 
 
 
